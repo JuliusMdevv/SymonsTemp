@@ -1,0 +1,26 @@
+#reviews{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    background-color:aliceblue;
+    padding: 20px;
+
+    mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+    
+}
+
+#reviews div{
+    margin-left: 90px;
+    display: flex;
+    width: auto;
+    text-wrap: none;
+    background-color: white;
+    border-radius: 10px;
+    border: #000000 2px solid;
+    justify-content: center;
+    align-items: center;
+    padding:none;
+
+}
